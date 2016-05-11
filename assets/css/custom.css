@@ -1,0 +1,71 @@
+body {
+	background-image: linear-gradient(#f6f6ff 0px, #fff 325px);
+	background-repeat: repeat-x;
+}
+
+#top {
+	padding: 20px 0 40px 0;
+}
+
+#top a {
+	font-size: 200%;
+	color: #6947a0;
+	transition: all 0.1s linear 0s;
+}
+
+#top a:hover {
+	text-shadow: 0 0 10px rgba(168, 168, 219, 0.75);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.thumbnail {
+	border-color: #0f0f0f;
+}
+
+.thumbnail:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 999;
+
+}
+
+.brl {
+	position: absolute;
+	padding: 10px;
+	font-size: 150%;
+	color: #5cb85c;
+	background: rgba(0, 0, 0, 0.75);
+	margin: -5px;
+	border-top-left-radius: 4px;
+	border: 1px solid #0f0f0f;
+}
+
+.btn-twitter,
+.btn-twitter:hover {
+	background-color: #1da1f2;
+	border-color: #1da1f2;
+	color: #fff;
+}
+
+.btn-facebook,
+.btn-facebook:hover {
+	background-color: #4267b2;
+	border-color: #4267b2;
+	color: #fff;
+}
+
+.btn-paypal,
+.btn-paypal:hover {
+	background-color: #005ea6;
+	border-color: #005ea6;
+	color: #fff;
+}
+
+@media (min-width: 992px) {
+	.thumbnail:hover {
+		transform: scale(1.2);
+	}
+}
